@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.2 (2026-09-29)
+
+### Bug Fixes
+
+- Update deps
+  ([`1e3f866`](https://github.com/kurt-guanwen-wang/mist-exporter/commit/1e3f86614812d13b09444f4e967bb8eadb73998f))
+
+
 ## v1.0.1 (2026-09-29)
 
 ### Bug Fixes
