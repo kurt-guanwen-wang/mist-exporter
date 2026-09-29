@@ -389,7 +389,7 @@ wheels = [
 
 [[package]]
 name = "mist-exporter"
-version = "1.0.0"
+version = "1.0.1"
 source = { virtual = "." }
 dependencies = [
     { name = "prometheus-client" },
