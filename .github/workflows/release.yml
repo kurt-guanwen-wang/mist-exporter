@@ -68,3 +68,12 @@ jobs:
           tags: |
             nirvanawgw/mist-exporter:${{ needs.release.outputs.version }}
             nirvanawgw/mist-exporter:latest
+
+      - name: Update Docker Hub description
+        uses: peter-evans/dockerhub-description@v5
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          repository: nirvanawgw/mist-exporter
+          short-description: "Prometheus exporter for Juniper Mist Wi-Fi APs and switches"
+          readme-filepath: ./README.md
