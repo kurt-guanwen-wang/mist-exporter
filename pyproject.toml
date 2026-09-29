@@ -1,6 +1,6 @@
 [project]
 name = "mist-exporter"
-version = "0.0.1"
+version = "1.0.0"
 description = "Prometheus exporter for Juniper Mist AP, switch, and client metrics"
 readme = "README.md"
 license = { text = "MIT" }
